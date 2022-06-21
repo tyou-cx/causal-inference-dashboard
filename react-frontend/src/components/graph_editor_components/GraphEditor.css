@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+.GraphEditor {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    background-color: rgb(255, 255, 255);
+    padding-left: 15px;
+}
+
+.GraphCanvas {
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 15px;
+    width: 530px;
+    height: 400px;
+    position: relative;
+    border: solid 1.5px #2d3748;
+    top: 0px;
+    left: 0px;
+    cursor: default;
+}
+
+.Instruction {
+    margin: 10px;
+    margin-left: 0px;
+    margin-right: 15px;
+    width: 530px;
+    height: 400px;
+    position: relative;
+    border: solid 0px #2d3748;
+    top: 0px;
+    left: 0px;
+    cursor: default;
+}
+
+.GraphCanvasNode {
+    position: absolute;
+    display: flex;
+    border: 0px solid black;
+    background-color: #90cdf4;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    text-align: "center";
+    vertical-align: "middle";
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.GraphCanvasEdge {
+    position: absolute;
+}
+
+.NodeText {
+    color: #2d3748;
+    margin: auto;
+    font-size: small;
+}
+
+.EdgeText {
+    color: #2d3748;
+    margin: auto;
+    font-size: small;
+}
+
+.centerText {
+    text-align: center;
+    padding-right: 15px;
+}
+
+.draw-line:after {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 1px;
+    flex-grow: 1;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.draw-line {
+    display: flex;
+    align-items: center;
+}

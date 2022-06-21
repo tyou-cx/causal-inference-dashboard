@@ -1,0 +1,22 @@
+.draw-line:after {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 1px;
+    width: 30%;
+    flex-grow: 1;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.draw-line {
+    display: flex;
+    align-items: center;
+}
+
+.section-content {
+    padding-left: 15px;
+}
+
+.container_timeseries{
+    margin-top: -40px;
+}
